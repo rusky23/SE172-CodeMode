@@ -1,0 +1,21 @@
+---
+- hosts: local
+  vars:
+    server_port: 81
+  become: yes
+  tasks:
+  - name: ensure apache is at the latest version
+    yum: name=httpd state=latest
+  - name: allow server to be accessed publically
+    firewalld: zone=public port={{server_port}}/tcp permanent=true state=enabled
+  - name: copy website code to apache's files
+    copy: src=./index.html dest=/var/www/html/index.html
+  - name: write the apache config file
+    template: src=./apache-config.j2 dest=/etc/httpd/conf/httpd.conf
+    notify:
+    - restart apache
+  - name: ensure apache is running (and enable it at boot)
+    service: name=httpd state=started enabled=yes
+  handlers:
+    - name: restart apache
+      service: name=httpd state=restarted

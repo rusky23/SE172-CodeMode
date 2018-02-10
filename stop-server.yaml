@@ -1,0 +1,6 @@
+---
+- hosts: local
+  become: yes
+  tasks:
+  - name: stop apache running
+    service: name=httpd state=stopped

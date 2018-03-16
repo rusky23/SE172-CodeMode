@@ -28,13 +28,6 @@ public class ProgramLauncher {
 	public static void main(String argv[]) {
 		System.out.println(":: PROGRAM START");
 
-		if (argv.length < 1) {
-			System.out.println("Need database properties filename");
-		} else {
-			BankingSystem.init(argv[0]);
-			BankingSystem.testConnection();
-			BatchInputProcessor.run(argv[0]);
-		}
 		runMainMenu();
 	}
 
@@ -69,12 +62,12 @@ public class ProgramLauncher {
 		  			String thisId = idText.getText();
 		  			String thisType = typeText.getText();
 		  			String balance = balanceText.getText();
-		  			if(loginId.equals(thisId)){
-		  				BankingSystem.openAccount(thisId, thisType, balance);
-		  			}
-		  			else{
-		  				System.out.println("Cannot create an Account for another User");
-		  			}
+		  			// if(loginId.equals(thisId)){
+		  			// 	BankingSystem.openAccount(thisId, thisType, balance);
+		  			// }
+		  			// else{
+		  			// 	System.out.println("Cannot create an Account for another User");
+		  			// }
 		  		}
 		  	});
 
@@ -112,12 +105,12 @@ public class ProgramLauncher {
 		  		public void actionPerformed(ActionEvent e)
 		  		{
 		  			String account = accountText.getText();
-		  			if(BankingSystem.validateAction(account)){
-		  				BankingSystem.closeAccount(account);
-		  			}
-		  			else{
-		  				System.out.println("Error");
-		  			}
+		  			// if(BankingSystem.validateAction(account)){
+		  			// 	BankingSystem.closeAccount(account);
+		  			// }
+		  			// else{
+		  			// 	System.out.println("Error");
+		  			// }
 		  			
 		  		}
 		  	});
@@ -155,7 +148,7 @@ public class ProgramLauncher {
 		  		{
 		  			String account = accountText.getText();
 		  			String amount = amountText.getText();	  				
-		  			BankingSystem.deposit(account, amount);
+		  			// BankingSystem.deposit(account, amount);
 		  		}
 		  	});
 			JPanel panel = new JPanel();
@@ -193,12 +186,12 @@ public class ProgramLauncher {
 		  		{
 		  			String account = accountText.getText();
 		  			String amount = amountText.getText();
-		  			if(BankingSystem.validateAction(account)){
-		  				BankingSystem.withdraw(account, amount);
-		  			}
-		  			else{
-		  				System.out.println("Cannot withdraw from another User's Account");
-		  			}
+		  			// if(BankingSystem.validateAction(account)){
+		  			// 	BankingSystem.withdraw(account, amount);
+		  			// }
+		  			// else{
+		  			// 	System.out.println("Cannot withdraw from another User's Account");
+		  			// }
 		  		}
 		  	});
 			JPanel panel = new JPanel();
@@ -241,12 +234,12 @@ public class ProgramLauncher {
 		  			String srcAccount = sourceText.getText();
 		  			String destAccount = destinationText.getText();
 		  			String amount = amountText.getText();
-		  			if(BankingSystem.validateAction(srcAccount)){
-		  				BankingSystem.transfer(srcAccount, destAccount, amount);
-		  			}
-		  			else{
-		  				System.out.println("Cannot transfer from another User's Account");
-		  			}
+		  			// if(BankingSystem.validateAction(srcAccount)){
+		  			// 	BankingSystem.transfer(srcAccount, destAccount, amount);
+		  			// }
+		  			// else{
+		  			// 	System.out.println("Cannot transfer from another User's Account");
+		  			// }
 		  		}
 		  	});
 			JPanel panel = new JPanel();
@@ -272,7 +265,7 @@ public class ProgramLauncher {
 		{
 		  public void actionPerformed(ActionEvent e)
 		  {
-		  	BankingSystem.accountSummary(loginId);
+		  	// BankingSystem.accountSummary(loginId);
 		  }
 		});
 
@@ -312,7 +305,7 @@ public class ProgramLauncher {
 		  public void actionPerformed(ActionEvent e)
 		  {
 		  	String account = accountNum.getText();
-		  	BankingSystem.accountSummary(account);
+		  	// BankingSystem.accountSummary(account);
 		  }
 		});	
 
@@ -321,7 +314,7 @@ public class ProgramLauncher {
 		{
 		  public void actionPerformed(ActionEvent e)
 		  {
-		  	BankingSystem.reportA();
+		  	// BankingSystem.reportA();
 		  }
 		});
 		JButton reportB = new JButton("Report B");
@@ -333,7 +326,7 @@ public class ProgramLauncher {
 		  {
 		  	String minimum = min.getText();
 		  	String maximum = max.getText();
-		  	BankingSystem.reportB(minimum, maximum);
+		  	// BankingSystem.reportB(minimum, maximum);
 		  }
 		});
 		JButton exit = new JButton("Exit");
@@ -400,16 +393,7 @@ public class ProgramLauncher {
 			{
 			  public void actionPerformed(ActionEvent e)
 			  {
-			  	String name = nameText.getText();
-			  	String gender = genderText.getText();
-			  	String age = ageText.getText();
-			  	String pin = pinText.getText();
-			  	if(BankingSystem.newCustomer(name, gender, age, pin)){
-			  		System.out.println("Success, new customer created");
-			  	}
-			  	else{
-			  		System.out.println("Failure: User info is wrong");
-			  	}
+			  	System.out.println("CREATED CUSTOMER");
 			  }
 			});
 
@@ -451,19 +435,19 @@ public class ProgramLauncher {
 			{
 			  public void actionPerformed(ActionEvent e)
 			  {
-			  	loginId = idText.getText();
-			  	String pin = pinText.getText();
+			  	// loginId = idText.getText();
+			  	// String pin = pinText.getText();
 
-			  	if(loginId.equals("0") && pin.equals("0")){
-			  		loginFrame.setVisible(false);
-			  		frame.setVisible(false);
-			  		runAdminMain();
-			  	}
-			  	else if(BankingSystem.login(loginId, pin)){
-			  		loginFrame.setVisible(false);
-			  		frame.setVisible(false);
-			  		runCustomerMain(loginId);
-			  	}
+			  	// if(loginId.equals("0") && pin.equals("0")){
+			  	// 	loginFrame.setVisible(false);
+			  	// 	frame.setVisible(false);
+			  	// 	runAdminMain();
+			  	// }
+			  	// else if(BankingSystem.login(loginId, pin)){
+			  	// 	loginFrame.setVisible(false);
+			  	// 	frame.setVisible(false);
+			  	// 	runCustomerMain(loginId);
+			  	// }
 			  }
 			});
 

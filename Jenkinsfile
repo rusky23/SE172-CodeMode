@@ -1,9 +1,8 @@
-/* Requires the Docker Pipeline plugin */
 node() {
     checkout scm
     stage('Build') {
-        docker.image('node:6.3').inside {
-            sh 'npm --version'
-        }
+        sh 'cd project-vue'
+        sh 'sudo npm i -g npm'
+        sh 'npm run dev'
     }
 }

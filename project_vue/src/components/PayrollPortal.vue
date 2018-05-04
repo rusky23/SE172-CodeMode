@@ -1,22 +1,22 @@
 <template>
-  <div>
-    <h1>we can use filter in this page</h1>
     <div>
-      <h3 style=" margin-top:20px; color:grey; font-weight:bold; text-align:center ">List of all Employees</h3>
+      <div style="text-align:center">
+        <h1>Only authenticate user can see this page</h1>
+        <h1>we can use filter in this page</h1>
+      </div>
+    <div>
+      <h3 style="margin-top:20px; color:grey; font-weight:bold; text-align:center "> List of all Employees </h3>
     </div>
-
    <div>
      <b-table striped hover :items="items"></b-table>
    </div>
-
  </div>
-
-
 </template>
 
 <style>
   .table{
     margin-top: 30px;
+    background-color: #f4faff;
   }
 </style>
 

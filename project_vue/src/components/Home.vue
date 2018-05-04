@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #cbd0d8;
+    background-color: #f7f9f9;
   }
   .hero .lead {
     font-weight: 200;

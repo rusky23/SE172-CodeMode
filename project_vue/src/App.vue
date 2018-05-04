@@ -1,22 +1,59 @@
 <template>
-  <div id="app">
-    <b-navbar toggleable="md" type="dark" variant="dark">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand to="/">Company Name</b-navbar-brand>
-      <b-collapse is-nav id="nav_collapse">
-        <b-navbar-nav >
-          <b-nav-item  to="/">Home</b-nav-item>
-          <b-nav-item to="/Payrollhome">Payroll Home</b-nav-item>
+<div id="app">
+    <b-navbar toggleable="md" type="dark" variant="info">
+
+    <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+
+    <b-navbar-brand to="/">Company Name</b-navbar-brand>
+
+    <b-collapse is-nav id="nav_collapse">
+
+      <b-navbar-nav>
+        <b-nav-item to="/">home</b-nav-item>
+        <b-nav-item  to="/EmployeeInformation">Employee Information</b-nav-item>
+        <b-nav-item to="/PayrollPortal">Payroll Portal</b-nav-item>
+      </b-navbar-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+
+        <b-nav-form>
+          <b-form-input size="lg" class="mr-sm-2" type="text" placeholder="Search here"/>
+          <b-button size="lg" class="my-2 my-sm-0" type="submit" >Search</b-button>
+        </b-nav-form>
+
+
+
+          <template slot="button-content">
+            <em>User</em>
+          </template>
           <b-nav-item href="#" @click.prevent="login" v-if="!activeUser">Login</b-nav-item>
           <b-nav-item href="#" @click.prevent="logout" v-else>Logout</b-nav-item>
-          <b-nav-item to="/Search">Search</b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-    <!-- routes will be rendered here -->
-    <router-view />
-  </div>
+      </b-navbar-nav>
+
+    </b-collapse>
+  </b-navbar>
+  <!-- routes will be rendered here -->
+  <router-view />
+
+</div>
 </template>
+
+<style>
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .nav-link{
+    margin-left: 40px;
+    font-weight: bold;
+  }
+  .navbar_collapse{
+    background-color: black;
+    color: black;
+  }
+</style>
+
 
 <script>
 

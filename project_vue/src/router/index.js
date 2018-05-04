@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Payrollhome from '@/components/Payrollhome'
+import EmployeeInformation from '@/components/EmployeeInformation'
 import Auth from '@okta/okta-vue'
-import Search from '@/components/Search'
+import PayrollPortal from '@/components/PayrollPortal'
 
 Vue.use(Auth, {
   issuer: 'https://dev-153969.oktapreview.com/oauth2/default',
@@ -27,17 +27,17 @@ let router = new Router({
       component: Auth.handleCallback()
     },
     {
-      path: '/Payrollhome',
-      name: 'Payrollhome',
-      component: Payrollhome,
+      path: '/EmployeeInformation',
+      name: 'EmployeeInformation',
+      component: EmployeeInformation,
       meta: {
         requiresAuth: true
       }
     },
     {
-      path: '/Search',
-      name: 'Search',
-      component: Search,
+      path: '/PayrollPortal',
+      name: 'PayrollPortal',
+      component: PayrollPortal,
       meta: {
         requiresAuth: true
       }

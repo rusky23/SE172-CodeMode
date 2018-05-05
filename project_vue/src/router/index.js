@@ -6,9 +6,9 @@ import Auth from '@okta/okta-vue'
 import PayrollPortal from '@/components/PayrollPortal'
 
 Vue.use(Auth, {
-  issuer: 'https://dev-153969.oktapreview.com/oauth2/default',
-  client_id: '0oaes4wjgjD05WcWH0h7',
-  redirect_uri: 'http://localhost:8080/implicit/callback',
+  issuer: 'https://sjsu-payam.okta.com',
+  client_id: '0oa13uduyfAK6GQ4e2p7',
+  redirect_uri: 'http://73.231.113.29:8080/implicit/callback',
   scope: 'openid profile email'
 })
 

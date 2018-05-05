@@ -27,8 +27,8 @@
           <template slot="button-content">
             <em>User</em>
           </template>
-          <b-nav-item href="#" @click.prevent="login" v-if="!activeUser">Login</b-nav-item>
-          <b-nav-item href="#" @click.prevent="logout" v-else>Logout</b-nav-item>
+          <b-nav-item href='#' @click.prevent='login' v-if='!authenticated'>Login</b-nav-item>
+          <b-nav-item href='#' @click.prevent='logout' v-else>Logout</b-nav-item>
       </b-navbar-nav>
 
     </b-collapse>
@@ -61,26 +61,26 @@ export default {
   name: 'app',
   data () {
     return {
-      activeUser: null
+      authenticated: false
     }
   },
-  async created () {
-    await this.refreshActiveUser()
+  created () {
+    this.isAuthenticated()
   },
   watch: {
     // everytime a route is changed refresh the activeUser
-    '$route': 'refreshActiveUser'
+    '$route': 'isAuthenticated'
   },
   methods: {
-    login () {
-      this.$auth.loginRedirect()
+    async isAuthenticated () {
+      this.authenticated = await this.$auth.isAuthenticated()
     },
-    async refreshActiveUser () {
-      this.activeUser = await this.$auth.getUser()
+    async login () {
+      this.$auth.loginRedirect()
     },
     async logout () {
       await this.$auth.logout()
-      await this.refreshActiveUser()
+      await this.isAuthenticated()
       this.$router.push('/')
     }
   }

@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+
 // Store Modules
 import employee from './modules/employee'
-
 
 Vue.use(Vuex)
 

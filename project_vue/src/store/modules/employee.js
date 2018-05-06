@@ -16,23 +16,24 @@ const mutations = {
 
 const actions = {
   updateUserInfo ({commit}, payload) {
-    var mysql = require('mysql');
+    var mysql = require('mysql')
     var connection = mysql.createConnection({
-      host     : 'localhost',
-      user     : 'root',
-      database : 'employees'
-    });
+      host: 'localhost',
+      user: 'root',
+      database: 'employees'
+    })
 
-    connection.connect();
+    connection.connect()
 
-    connection.query('SELECT * FROM employees WHERE firstName = ' + payload.firstName, function(err, rows, fields) {
-      if (!err)
-        console.log('The solution is: ', rows);
-      else
-        console.log('Error while performing Query:', err);
-    });
+    connection.query('SELECT * FROM employees WHERE firstName = ' + payload.firstName, function (err, rows, fields) {
+      if (!err) {
+        console.log('The solution is: ', rows)
+      } else {
+        console.log('Error while performing Query:', err)
+      }
+    })
 
-    connection.end();
+    connection.end()
   }
 }
 
@@ -42,4 +43,3 @@ export default {
   actions,
   mutations
 }
-

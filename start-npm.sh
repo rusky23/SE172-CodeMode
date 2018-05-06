@@ -1,1 +1,1 @@
-npm run dev --prefix project_vue/ & disown
+npm run dev --prefix project_vue/ >> run.log & disown

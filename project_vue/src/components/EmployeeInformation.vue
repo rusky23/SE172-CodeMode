@@ -4,7 +4,7 @@
       <h1 class="headline">Employee Information</h1>
       <h3>Welcome to Your page "Employee name"</h3>
       <h1>Only Authenticate User can see This page--</h1>
-      <v-btn color="brown darken-2" flat @click="updateUserInfo"> Test</v-btn>
+      <b-button color="brown darken-2" flat @click="testDatabase"> Test</b-button>
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@
 <script>
   export default {
     data: () => ({
-      
+
     }),
     computed: {
 

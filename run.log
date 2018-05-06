@@ -1,0 +1,194 @@
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 4022ms14:25:36
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...14:29:26
+
+ DONE  Compiled successfully in 503ms14:29:26
+
+ WAIT  Compiling...14:29:48
+
+ DONE  Compiled successfully in 269ms14:29:48
+
+ WAIT  Compiling...14:32:03
+
+ ERROR  Failed to compile with 1 errors14:32:04
+
+ error  in ./src/main.js
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'store' is not defined  
+  src/main.js:17:3
+    store,
+     ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:32:28
+
+ ERROR  Failed to compile with 4 errors14:32:30
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:32:31
+
+ ERROR  Failed to compile with 4 errors14:32:31
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:34:05
+
+ ERROR  Failed to compile with 4 errors14:34:06
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:34:31
+
+ ERROR  Failed to compile with 4 errors14:34:31
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:35:29
+
+ ERROR  Failed to compile with 4 errors14:35:29
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:35:36
+
+ ERROR  Failed to compile with 4 errors14:35:37
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:35:51
+
+ ERROR  Failed to compile with 4 errors14:35:51
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:36:15
+
+ ERROR  Failed to compile with 3 errors14:36:16
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+
+To install them, you can run: npm install --save fs net tls
+ WAIT  Compiling...14:36:32
+
+ ERROR  Failed to compile with 4 errors14:36:33
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+* vuex in ./src/store/index.js
+
+To install them, you can run: npm install --save fs net tls vuex
+ WAIT  Compiling...14:37:06
+
+ ERROR  Failed to compile with 3 errors14:37:06
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* net in ./node_modules/mysql/lib/Connection.js
+* tls in ./node_modules/mysql/lib/Connection.js
+
+To install them, you can run: npm install --save fs net tls
+ WAIT  Compiling...14:37:46
+
+ ERROR  Failed to compile with 2 errors14:37:46
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* tls in ./node_modules/mysql/lib/Connection.js
+
+To install them, you can run: npm install --save fs tls
+ WAIT  Compiling...14:38:07
+
+ ERROR  Failed to compile with 2 errors14:38:08
+
+These dependencies were not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+* tls in ./node_modules/mysql/lib/Connection.js
+
+To install them, you can run: npm install --save fs tls
+ WAIT  Compiling...14:38:38
+
+ ERROR  Failed to compile with 1 errors14:38:38
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+ WAIT  Compiling...14:43:52
+
+ ERROR  Failed to compile with 1 errors14:43:53
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs

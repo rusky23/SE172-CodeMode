@@ -30,8 +30,8 @@
     },
     methods: {
       testDatabase () {
-        var name = {'Charlene'}
-        this.$store.dispatch('testDatabase', name)
+        var testData = {firstName: 'Charlene'}
+        this.$store.dispatch('testDatabase', testData)
       }
     }
   }

@@ -1,60 +1,45 @@
-var nosql = require('mysql'); 
-
-var Employee = function(emp_no, birth_date, first_name, last_name, gender, hire_date) {
-    if (emp_no) this.emp_no = emp_no
-    if (birth_date) this.birth_date = birth_date
-    if (first_name) this.first_name = first_name
-    if (last_name) this.last_name = last_name
-    if (gender) this.gender = gender
-    if (hire_date) this.hire_date = hire_date
+const state = {
+  firstName: null
 }
 
-// create basic object<->table mapping
-var annotations = new nosql.TableMapping('employees').applyToClass(Employee);
+const getters = {
+  firstName (state) {
+    return state.firstName
+  }
+}
 
-//check results of find
-var onFind = function(err, result) {
-    console.log('onFind.');
-    if (err) {
-        console.log(err);
-    } else {
-        console.log('Found: ' + JSON.stringify(result));
-    }
-    process.exit(0);
-};
+const mutations = {
+  setFirstName (state, payload) {
+    state.firstName = payload
+  }
+}
 
-//check results of insert
-var onInsert = function(err, object, session) {
-    console.log('onInsert.');
-    if (err) {
-        console.log(err);
-    } else {
-        console.log('Inserted: ' + JSON.stringify(object));
+const actions = {
+  updateUserInfo ({commit}, payload) {
+    var mysql = require('mysql');
+    var connection = mysql.createConnection({
+      host     : 'localhost',
+      user     : 'root',
+      database : 'employees'
+    });
 
-        // Now read the data back out from the database
-        session.find(Employee, 'Maidenhead', onFind);
-    }
-};
+    connection.connect();
 
-// insert an object
-var onSession = function(err, session) {
-    console.log('onSession.');
-    if (err) {
-    console.log('Error onSession.');
-        console.log(err);
-        process.exit(0);
-    } else {
-        var data = new Employee('Maidenhead', 'Berkshire');
-        session.persist(data, onInsert, data, session);
-    }
-};
+    connection.query('SELECT * FROM employees WHERE firstName = ' + payload.firstName, function(err, rows, fields) {
+      if (!err)
+        console.log('The solution is: ', rows);
+      else
+        console.log('Error while performing Query:', err);
+    });
 
-var dbProperties = nosql.ConnectionProperties('ndb');
+    connection.end();
+  }
+}
 
-console.log('Openning session');
-
-// connect to the database
-nosql.openSession(dbProperties, Employee, onSession);
-
-console.log('Openned session');
+export default {
+  state,
+  getters,
+  actions,
+  mutations
+}
 

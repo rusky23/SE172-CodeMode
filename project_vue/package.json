@@ -18,6 +18,7 @@
     "bootstrap": "^4.1.0",
     "bootstrap-vue": "^2.0.0-rc.7",
     "express-vue": "^5.6.2",
+    "mysql": "^2.15.0",
     "serve-static": "^1.13.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"

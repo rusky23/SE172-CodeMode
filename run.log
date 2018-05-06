@@ -192,3 +192,96 @@ This dependency was not found:
 * fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
 
 To install it, you can run: npm install --save fs
+ ERROR  Failed to compile with 1 errors14:50:30
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+ WAIT  Compiling...14:50:30
+
+ ERROR  Failed to compile with 1 errors14:50:31
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+ WAIT  Compiling...14:50:39
+
+ ERROR  Failed to compile with 1 errors14:50:39
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ ERROR  Failed to compile with 1 errors14:52:41
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...14:53:47
+
+ ERROR  Failed to compile with 1 errors14:53:48
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ ERROR  Failed to compile with 1 errors14:55:00
+
+This dependency was not found:
+
+* fs in ./node_modules/mysql/lib/protocol/sequences/Query.js
+
+To install it, you can run: npm install --save fs
+> Listening at http://localhost:8080
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 5304ms15:17:09
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...15:58:48
+
+ ERROR  Failed to compile with 1 errors15:58:48
+
+ error  in ./src/store/modules/employee.js
+
+Syntax Error: Unexpected token, expected , (39:2)
+
+  37 |       connection.end()
+  38 |     }
+> 39 |   }
+     |   ^
+  40 | }
+  41 | 
+  42 | export default {
+
+
+
+ @ ./src/store/index.js 5:0-42
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+

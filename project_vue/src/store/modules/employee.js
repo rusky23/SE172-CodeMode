@@ -15,25 +15,17 @@ const mutations = {
 }
 
 const actions = {
-  updateUserInfo ({commit}, payload) {
-    var mysql = require('mysql')
+  testDatabase ({commit}, payload) {
+    // code to test database
+    /*
+    Connection info:
+
     var connection = mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
-      database: 'employees'
-    })
-
-    connection.connect()
-
-    connection.query('SELECT * FROM employees WHERE firstName = ' + payload.firstName, function (err, rows, fields) {
-      if (!err) {
-        console.log('The solution is: ', rows)
-      } else {
-        console.log('Error while performing Query:', err)
-      }
-    })
-
-    connection.end()
+      host     : 'localhost',
+      user     : 'root',
+      database : 'employees'
+    });
+    */
   }
 }
 

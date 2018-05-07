@@ -1,0 +1,1076 @@
+May 07, 2018 8:45:38 AM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.ClassCastException: org.apache.catalina.deploy.NamingResources cannot be cast to org.apache.catalina.deploy.NamingResources
+	at org.apache.catalina.startup.SetNextNamingRule.end(SetNextNamingRule.java:100)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1081)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 8:45:38 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact localhost:8005. Tomcat may not be running.
+May 07, 2018 8:45:38 AM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: Error at (47, 50) : org.apache.catalina.deploy.NamingResources cannot be cast to org.apache.catalina.deploy.NamingResources
+May 07, 2018 8:45:38 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.86
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 9 2018 20:16:54 UTC
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.86.0
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_71
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_71-b15
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: abort
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+May 07, 2018 8:45:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+May 07, 2018 8:45:57 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+May 07, 2018 8:45:57 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+May 07, 2018 8:45:58 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+May 07, 2018 8:46:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4918 ms
+May 07, 2018 8:46:00 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 07, 2018 8:46:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.86
+May 07, 2018 8:46:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+May 07, 2018 8:46:02 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [377] milliseconds.
+May 07, 2018 8:46:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 1,508 ms
+May 07, 2018 8:46:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples has finished in 5,753 ms
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.86
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 9 2018 20:16:54 UTC
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.86.0
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_71
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_71-b15
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: abort
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+May 07, 2018 8:46:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+May 07, 2018 8:46:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+May 07, 2018 8:46:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager has finished in 1,000 ms
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 204 ms
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 80 ms
+May 07, 2018 8:46:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:09 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8747 ms
+May 07, 2018 8:46:09 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+May 07, 2018 8:46:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:09 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 8:46:09 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+May 07, 2018 8:46:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:09 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 8:46:09 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+May 07, 2018 8:46:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2485 ms
+May 07, 2018 8:46:09 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 07, 2018 8:46:09 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.86
+May 07, 2018 8:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+May 07, 2018 8:46:10 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [252] milliseconds.
+May 07, 2018 8:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 666 ms
+May 07, 2018 8:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples has finished in 715 ms
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager has finished in 197 ms
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 107 ms
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 78 ms
+May 07, 2018 8:46:11 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1891 ms
+May 07, 2018 8:46:11 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+May 07, 2018 8:46:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:11 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 07, 2018 8:46:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.86
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 9 2018 20:16:54 UTC
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.86.0
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_71
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_71-b15
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: abort
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+May 07, 2018 8:46:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+May 07, 2018 8:46:28 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+May 07, 2018 8:46:28 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+May 07, 2018 8:46:29 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+May 07, 2018 8:46:29 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:29 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 8:46:29 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+May 07, 2018 8:46:29 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:29 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 8:46:29 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+May 07, 2018 8:46:29 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1522 ms
+May 07, 2018 8:46:29 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 07, 2018 8:46:29 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.86
+May 07, 2018 8:46:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+May 07, 2018 8:46:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 471 ms
+May 07, 2018 8:46:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples has finished in 442 ms
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager has finished in 145 ms
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 112 ms
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 72 ms
+May 07, 2018 8:46:30 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1301 ms
+May 07, 2018 8:46:30 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+May 07, 2018 8:46:30 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:30 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:30 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 07, 2018 8:46:30 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:30 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+May 07, 2018 8:46:30 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 8:46:30 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 10:32:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 10:32:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 10:32:02 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 07, 2018 10:32:02 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+May 07, 2018 10:32:02 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.86
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 9 2018 20:16:54 UTC
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.86.0
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_71
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_71-b15
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: abort
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+May 07, 2018 10:32:12 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+May 07, 2018 10:32:12 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+May 07, 2018 10:32:12 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+May 07, 2018 10:32:13 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+May 07, 2018 10:32:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 10:32:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+May 07, 2018 10:32:16 AM org.apache.tomcat.util.net.jsse.JSSESocketFactory getStore
+SEVERE: Failed to load keystore type JKS with path C:\WINDOWS\system32\config\systemprofile/.keystore due to Illegal character in opaque part at index 2: C:\WINDOWS\system32\config\systemprofile/.keystore
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 2: C:\WINDOWS\system32\config\systemprofile/.keystore
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.apache.tomcat.util.file.ConfigFileLoader.getInputStream(ConfigFileLoader.java:93)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:470)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:381)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:634)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:574)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:519)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:255)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 2: C:\WINDOWS\system32\config\systemprofile/.keystore
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 27 more
+
+May 07, 2018 10:32:16 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8443"]
+java.io.IOException: Failed to load keystore type JKS with path C:\WINDOWS\system32\config\systemprofile/.keystore due to Illegal character in opaque part at index 2: C:\WINDOWS\system32\config\systemprofile/.keystore
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:490)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:381)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:634)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:574)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:519)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:255)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 10:32:16 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.io.IOException: Failed to load keystore type JKS with path C:\WINDOWS\system32\config\systemprofile/.keystore due to Illegal character in opaque part at index 2: C:\WINDOWS\system32\config\systemprofile/.keystore
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:490)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:381)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:634)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:574)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:519)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:255)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+May 07, 2018 10:32:16 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 10:32:16 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5009 ms
+May 07, 2018 10:32:16 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 07, 2018 10:32:16 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.86
+May 07, 2018 10:32:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+May 07, 2018 10:32:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 546 ms
+May 07, 2018 10:32:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples has finished in 3,215 ms
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager has finished in 290 ms
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 191 ms
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 112 ms
+May 07, 2018 10:32:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+May 07, 2018 10:32:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 10:32:20 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4478 ms
+May 07, 2018 11:00:17 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'protocool' to 'org.apache.coyote.http11.Http11Protocol' did not find a matching property.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/Certificate'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Connector'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm/Realm'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host/Valve'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine'.
+May 07, 2018 11:00:17 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 153 column 5: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/conf/server.xml; lineNumber: 153; columnNumber: 5; The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 11:00:17 AM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+May 07, 2018 11:00:17 AM org.apache.catalina.startup.Catalina start
+SEVERE: Cannot start server. Server instance is not configured.
+May 07, 2018 11:00:23 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 11:00:23 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+May 07, 2018 11:00:23 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 11:00:23 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 07, 2018 11:00:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+May 07, 2018 11:00:23 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 11:00:35 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'protocool' to 'org.apache.coyote.http11.Http11Protocol' did not find a matching property.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/Certificate'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Connector'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm/Realm'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host/Valve'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine'.
+May 07, 2018 11:00:35 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 153 column 5: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/conf/server.xml; lineNumber: 153; columnNumber: 5; The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 11:00:35 AM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+May 07, 2018 11:00:35 AM org.apache.catalina.startup.Catalina start
+SEVERE: Cannot start server. Server instance is not configured.
+May 07, 2018 11:00:48 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'protocool' to 'org.apache.coyote.http11.Http11Protocol' did not find a matching property.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/Certificate'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Connector'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm/Realm'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host/Valve'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine'.
+May 07, 2018 11:00:48 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 153 column 5: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/conf/server.xml; lineNumber: 153; columnNumber: 5; The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 11:00:48 AM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+May 07, 2018 11:00:48 AM org.apache.catalina.startup.Catalina start
+SEVERE: Cannot start server. Server instance is not configured.
+May 07, 2018 11:00:54 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'protocool' to 'org.apache.coyote.http11.Http11Protocol' did not find a matching property.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/Certificate'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Connector'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm/Realm'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host/Valve'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine'.
+May 07, 2018 11:00:54 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 153 column 5: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/conf/server.xml; lineNumber: 153; columnNumber: 5; The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 11:00:54 AM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+May 07, 2018 11:00:54 AM org.apache.catalina.startup.Catalina start
+SEVERE: Cannot start server. Server instance is not configured.
+May 07, 2018 11:01:14 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'protocool' to 'org.apache.coyote.http11.Http11Protocol' did not find a matching property.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/Certificate'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Connector'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm/Realm'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Realm'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host/Valve'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine/Host'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/Service/Connector/SSLHostConfig/SSLHostConfig/Connector/Engine'.
+May 07, 2018 11:01:14 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 153 column 5: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%207.0/conf/server.xml; lineNumber: 153; columnNumber: 5; The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:628)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+May 07, 2018 11:01:14 AM org.apache.catalina.startup.Catalina load
+WARNING: Catalina.start using conf/server.xml: The element type "Connector" must be terminated by the matching end-tag "</Connector>".
+May 07, 2018 11:01:14 AM org.apache.catalina.startup.Catalina start
+SEVERE: Cannot start server. Server instance is not configured.
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.86
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 9 2018 20:16:54 UTC
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.86.0
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_71
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_71-b15
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: exit
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: abort
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+May 07, 2018 11:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx256m
+May 07, 2018 11:01:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+May 07, 2018 11:01:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+May 07, 2018 11:01:35 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+May 07, 2018 11:01:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+May 07, 2018 11:01:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 11:01:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1885 ms
+May 07, 2018 11:01:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 07, 2018 11:01:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.86
+May 07, 2018 11:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+May 07, 2018 11:01:36 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [131] milliseconds.
+May 07, 2018 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs has finished in 592 ms
+May 07, 2018 11:01:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples has finished in 1,997 ms
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager has finished in 371 ms
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager has finished in 112 ms
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT has finished in 74 ms
+May 07, 2018 11:01:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+May 07, 2018 11:01:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+May 07, 2018 11:01:38 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3236 ms

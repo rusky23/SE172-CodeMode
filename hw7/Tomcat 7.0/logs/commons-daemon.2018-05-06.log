@@ -1,0 +1,29 @@
+[2018-05-06 21:19:38] [info]  [16828] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2018-05-06 21:19:38] [info]  [16828] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2018-05-06 21:19:39] [info]  [16828] Service 'Tomcat7' installed
+[2018-05-06 21:19:39] [info]  [16828] Commons Daemon procrun finished
+[2018-05-06 21:19:39] [info]  [ 8388] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2018-05-06 21:19:39] [info]  [ 8388] Updating service...
+[2018-05-06 21:19:40] [info]  [ 8388] Service 'Tomcat7' updated
+[2018-05-06 21:19:40] [info]  [ 8388] Update service finished.
+[2018-05-06 21:19:40] [info]  [ 8388] Commons Daemon procrun finished
+[2018-05-06 21:19:52] [info]  [15504] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2018-05-06 21:19:52] [info]  [15504] Updating service...
+[2018-05-06 21:19:52] [info]  [15504] Service 'Tomcat7' updated
+[2018-05-06 21:19:52] [info]  [15504] Update service finished.
+[2018-05-06 21:19:52] [info]  [15504] Commons Daemon procrun finished
+[2018-05-06 21:19:52] [info]  [ 4668] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2018-05-06 21:19:53] [info]  [ 4668] Updating service...
+[2018-05-06 21:19:53] [info]  [ 4668] Service 'Tomcat7' updated
+[2018-05-06 21:19:53] [info]  [ 4668] Update service finished.
+[2018-05-06 21:19:53] [info]  [ 4668] Commons Daemon procrun finished
+[2018-05-06 21:19:53] [info]  [12432] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2018-05-06 21:19:53] [info]  [12432] Updating service...
+[2018-05-06 21:19:53] [info]  [12432] Service 'Tomcat7' updated
+[2018-05-06 21:19:53] [info]  [12432] Update service finished.
+[2018-05-06 21:19:53] [info]  [12432] Commons Daemon procrun finished
+[2018-05-06 21:19:53] [info]  [19224] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2018-05-06 21:19:54] [info]  [19224] Updating service...
+[2018-05-06 21:19:54] [info]  [19224] Service 'Tomcat7' updated
+[2018-05-06 21:19:54] [info]  [19224] Update service finished.
+[2018-05-06 21:19:54] [info]  [19224] Commons Daemon procrun finished

@@ -2,7 +2,7 @@
   <div class="hero">
     <div>
       <h1 class="display-3">Home</h1>
-      <p class="lead">This is the homepage of your vue app</p>
+      <p class="lead">This is the Homepage of our Portal</p>
     </div>
   </div>
 </template>
@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: #f7f9f9;
   }
   .hero .lead {
     font-weight: 200;

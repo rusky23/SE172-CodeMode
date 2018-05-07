@@ -1,0 +1,8 @@
+---
+- hosts: local
+  become: yes
+  tasks:
+  - name: stop npm running
+    command: killall npm
+    register: stop_cmd
+    failed_when: "'no process found' not in stop_cmd.stderr and stop_cmd.stderr != ''"

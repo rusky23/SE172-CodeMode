@@ -31,7 +31,7 @@ let router = new Router({
       name: 'EmployeeInformation',
       component: EmployeeInformation,
       meta: {
-        requiresAuth: false
+        requiresAuth: true
       }
     },
     {

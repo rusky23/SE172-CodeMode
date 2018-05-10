@@ -7,11 +7,14 @@ import { store } from './store'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import model = require('./models')
-
+import VueGoodTable from 'vue-good-table'
+import 'vue-good-table/dist/vue-good-table.css'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 Vue.use(BootstrapVue)
+Vue.use(VueGoodTable)
+Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
@@ -20,7 +23,3 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
-
-model.employee.findOne().then(function(result)){
-	console.log(result)
-}

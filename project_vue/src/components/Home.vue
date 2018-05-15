@@ -2,7 +2,7 @@
   <div class="hero">
     <div>
       <h1 class="display-3">Home</h1>
-      <p class="lead">This is the Homepage of our Portal</p>
+      <p class="lead">Welcome to the Homepage of our Portal. Please log in to view Employee Information.</p>
     </div>
   </div>
 </template>

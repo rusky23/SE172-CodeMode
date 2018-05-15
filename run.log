@@ -477,3 +477,3231 @@ Syntax Error: Unexpected token (10:13)
 > node build/dev-server.js
 
 > Starting dev server...
+ ERROR  Failed to compile with 1 errors21:09:15
+
+ error  in ./src/components/PayrollPortal.vue
+
+Module build failed: Error: ENOENT: no such file or directory, open '/home/morima/Documents/172/CodeMode/project_vue/src/components/PayrollPortal.vue'
+
+ @ ./src/router/index.js 6:0-55
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 5779ms21:11:51
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...21:27:24
+
+ ERROR  Failed to compile with 1 errors21:27:25
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected , (91:4)
+
+  89 |       }
+  90 |     }
+> 91 |     createEmployee (params) {
+     |     ^
+  92 |       if (params.column.field === 'action') {
+  93 |         this.ShowModal = true
+  94 |         this.SelectedText = params.row.FullName + ' ' + ', Employee ID : ' + params.row.Emp_no + ', Birth Date : ' + params.row.BirthDate
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...21:27:50
+
+ DONE  Compiled successfully in 408ms21:27:50
+
+ WAIT  Compiling...21:28:16
+
+ DONE  Compiled successfully in 438ms21:28:17
+
+ WAIT  Compiling...21:28:32
+
+ DONE  Compiled successfully in 378ms21:28:33
+
+ WAIT  Compiling...21:28:43
+
+ DONE  Compiled successfully in 499ms21:28:43
+
+ WAIT  Compiling...21:28:53
+
+ DONE  Compiled successfully in 353ms21:28:53
+
+ WAIT  Compiling...21:29:12
+
+ DONE  Compiled successfully in 423ms21:29:12
+
+ WAIT  Compiling...21:29:36
+
+ DONE  Compiled successfully in 390ms21:29:36
+
+ WAIT  Compiling...21:31:56
+
+ DONE  Compiled successfully in 420ms21:31:57
+
+ WAIT  Compiling...21:32:56
+
+ DONE  Compiled successfully in 407ms21:32:56
+
+ WAIT  Compiling...21:33:58
+
+ DONE  Compiled successfully in 420ms21:33:58
+
+ WAIT  Compiling...21:34:28
+
+ DONE  Compiled successfully in 376ms21:34:29
+
+ WAIT  Compiling...21:41:20
+
+ ERROR  Failed to compile with 1 errors21:41:20
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:105:3
+          
+     ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...21:41:47
+
+ ERROR  Failed to compile with 1 errors21:41:48
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed                  
+  src/components/EmployeeInformation.vue:105:3
+          
+     ^
+
+  ✘  http://eslint.org/docs/rules/spaced-comment      Expected space or tab after '//' in comment  
+  src/components/EmployeeInformation.vue:120:9
+          //this.rows.push(this.employee)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef            'employee' is not defined                    
+  src/components/EmployeeInformation.vue:121:21
+          console.log(employee)
+                       ^
+
+
+✘ 3 problems (3 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+  1  http://eslint.org/docs/rules/spaced-comment
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...21:42:18
+
+ ERROR  Failed to compile with 1 errors21:42:19
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed                  
+  src/components/EmployeeInformation.vue:105:3
+          
+     ^
+
+  ✘  http://eslint.org/docs/rules/spaced-comment      Expected space or tab after '//' in comment  
+  src/components/EmployeeInformation.vue:120:9
+          //this.rows.push(this.employee)
+           ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/spaced-comment
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...21:42:26
+
+ ERROR  Failed to compile with 1 errors21:42:26
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:105:3
+          
+     ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...21:42:36
+
+ ERROR  Failed to compile with 1 errors21:42:37
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:105:3
+          
+     ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...21:42:57
+
+ DONE  Compiled successfully in 465ms21:42:58
+
+ WAIT  Compiling...21:43:36
+
+ DONE  Compiled successfully in 486ms21:43:37
+
+ WAIT  Compiling...21:44:57
+
+ DONE  Compiled successfully in 363ms21:44:57
+
+ WAIT  Compiling...22:47:27
+
+ ERROR  Failed to compile with 1 errors22:47:27
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (155:15)
+
+  153 |         FullName: this.name,
+  154 |         BirthDate:"1960-02-20",
+> 155 |         Gender:,
+      |                ^
+  156 |         action: this.defaultAction
+  157 |       }
+  158 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:47:56
+
+ ERROR  Failed to compile with 1 errors22:47:56
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape    Unnecessary escape character: \/                               
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:130:28
+          return this.name ? true : false
+                              ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:133:69
+          return this.gender === 'Male' || this.gender === 'Female' ? true : false
+                                                                       ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:136:29
+          return this.birth ? true : false
+                               ^
+
+  ✘  http://eslint.org/docs/rules/key-spacing          Missing space before value for key 'BirthDate'                 
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/quotes               Strings must use singlequote                                   
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'createEmpoloyee' is not defined                               
+  src/components/EmployeeInformation.vue:165:9
+          createEmpoloyee()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthYear' is not defined                                     
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'firstDash' is not defined                                     
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthMonth' is not defined                                    
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'secondDash' is not defined                                    
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthDay' is not defined                                      
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 20 problems (20 errors, 0 warnings)
+
+
+Errors:
+  14  http://eslint.org/docs/rules/no-undef
+   3  http://eslint.org/docs/rules/no-unneeded-ternary
+   1  http://eslint.org/docs/rules/quotes
+   1  http://eslint.org/docs/rules/key-spacing
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:48:29
+
+ ERROR  Failed to compile with 1 errors22:48:29
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (131:4)
+
+  129 |     nameState () {
+  130 |       return this.name ?
+> 131 |     },
+      |     ^
+  132 |     genderState () {
+  133 |       return this.gender === 'Male' || this.gender === 'Female' ?
+  134 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:49:19
+
+ ERROR  Failed to compile with 1 errors22:49:19
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (131:4)
+
+  129 |     nameState () {
+  130 |       return this.name?
+> 131 |     },
+      |     ^
+  132 |     genderState () {
+  133 |       return this.gender === 'Male' || this.gender === 'Female'?
+  134 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:49:25
+
+ ERROR  Failed to compile with 1 errors22:49:25
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape    Unnecessary escape character: \/                               
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:130:28
+          return this.name ? true : false
+                              ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:133:69
+          return this.gender === 'Male' || this.gender === 'Female' ? true : false
+                                                                       ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:136:29
+          return this.birth ? true : false
+                               ^
+
+  ✘  http://eslint.org/docs/rules/key-spacing          Missing space before value for key 'BirthDate'                 
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/quotes               Strings must use singlequote                                   
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'createEmpoloyee' is not defined                               
+  src/components/EmployeeInformation.vue:165:9
+          createEmpoloyee()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthYear' is not defined                                     
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'firstDash' is not defined                                     
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthMonth' is not defined                                    
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'secondDash' is not defined                                    
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthDay' is not defined                                      
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 20 problems (20 errors, 0 warnings)
+
+
+Errors:
+  14  http://eslint.org/docs/rules/no-undef
+   3  http://eslint.org/docs/rules/no-unneeded-ternary
+   1  http://eslint.org/docs/rules/quotes
+   1  http://eslint.org/docs/rules/key-spacing
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:52:46
+
+ ERROR  Failed to compile with 1 errors22:52:47
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: (137:4)
+
+  135 |     birthState () {
+  136 |       return this.birth ? true
+> 137 |     }
+      |     ^
+  138 |   },
+  139 |   mounted () {
+  140 |     this.axios.get('http://www.topcutbarbers.co.uk/service/service.php').then((response) => { console.log(response); this.rows = response.data })
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:53:13
+
+ ERROR  Failed to compile with 1 errors22:53:13
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'False' is not defined                                         
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape    Unnecessary escape character: \/                               
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:130:28
+          return this.name ? true : false
+                              ^
+
+  ✘  http://eslint.org/docs/rules/no-unneeded-ternary  Unnecessary use of boolean literals in conditional expression  
+  src/components/EmployeeInformation.vue:133:69
+          return this.gender === 'Male' || this.gender === 'Female' ? true : false
+                                                                       ^
+
+  ✘  http://eslint.org/docs/rules/key-spacing          Missing space before value for key 'BirthDate'                 
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/quotes               Strings must use singlequote                                   
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'createEmpoloyee' is not defined                               
+  src/components/EmployeeInformation.vue:165:9
+          createEmpoloyee()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthYear' is not defined                                     
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'firstDash' is not defined                                     
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthMonth' is not defined                                    
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'secondDash' is not defined                                    
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birthDay' is not defined                                      
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef             'birth' is not defined                                         
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 19 problems (19 errors, 0 warnings)
+
+
+Errors:
+  14  http://eslint.org/docs/rules/no-undef
+   2  http://eslint.org/docs/rules/no-unneeded-ternary
+   1  http://eslint.org/docs/rules/quotes
+   1  http://eslint.org/docs/rules/key-spacing
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:53:41
+
+ ERROR  Failed to compile with 1 errors22:53:42
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/                
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/quotes             Strings must use singlequote                    
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/key-spacing        Missing space before value for key 'BirthDate'  
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:"1960-02-20",
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'createEmpoloyee' is not defined                
+  src/components/EmployeeInformation.vue:165:9
+          createEmpoloyee()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthYear' is not defined                      
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'firstDash' is not defined                      
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthMonth' is not defined                     
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'secondDash' is not defined                     
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthDay' is not defined                       
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 17 problems (17 errors, 0 warnings)
+
+
+Errors:
+  14  http://eslint.org/docs/rules/no-undef
+   1  http://eslint.org/docs/rules/key-spacing
+   1  http://eslint.org/docs/rules/quotes
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:54:15
+
+ ERROR  Failed to compile with 1 errors22:54:15
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/                
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/key-spacing        Missing space before value for key 'BirthDate'  
+  src/components/EmployeeInformation.vue:154:21
+            BirthDate:'1960-02-20',
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'createEmpoloyee' is not defined                
+  src/components/EmployeeInformation.vue:165:9
+          createEmpoloyee()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthYear' is not defined                      
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'firstDash' is not defined                      
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthMonth' is not defined                     
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'secondDash' is not defined                     
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthDay' is not defined                       
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 16 problems (16 errors, 0 warnings)
+
+
+Errors:
+  14  http://eslint.org/docs/rules/no-undef
+   1  http://eslint.org/docs/rules/key-spacing
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:54:22
+
+ ERROR  Failed to compile with 1 errors22:54:23
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/  
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'createEmpoloyee' is not defined  
+  src/components/EmployeeInformation.vue:165:9
+          createEmpoloyee()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthYear' is not defined        
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'firstDash' is not defined        
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthMonth' is not defined       
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'secondDash' is not defined       
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthDay' is not defined         
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 15 problems (15 errors, 0 warnings)
+
+
+Errors:
+  14  http://eslint.org/docs/rules/no-undef
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:54:38
+
+ ERROR  Failed to compile with 1 errors22:54:39
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/  
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthYear' is not defined        
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:167:21
+          birthYear = birth.substr(0, 4)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'firstDash' is not defined        
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthMonth' is not defined       
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'secondDash' is not defined       
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthDay' is not defined         
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined            
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 14 problems (14 errors, 0 warnings)
+
+
+Errors:
+  13  http://eslint.org/docs/rules/no-undef
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:54:50
+
+ ERROR  Failed to compile with 1 errors22:54:50
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                          
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/                
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'birthYear' is assigned a value but never used  
+  src/components/EmployeeInformation.vue:167:13
+          var birthYear = birth.substr(0, 4)
+               ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:167:25
+          var birthYear = birth.substr(0, 4)
+                           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'firstDash' is not defined                      
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:168:21
+          firstDash = birth.substr(4, 1)
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthMonth' is not defined                     
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:169:22
+          birthMonth = birth.substr(5, 2)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'secondDash' is not defined                     
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:170:22
+          secondDash = birth.substr(7, 1)
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthDay' is not defined                       
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = birth.substr(8, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birth' is not defined                          
+  src/components/EmployeeInformation.vue:171:20
+          birthDay = birth.substr(8, 2)
+                      ^
+
+
+✘ 14 problems (14 errors, 0 warnings)
+
+
+Errors:
+  12  http://eslint.org/docs/rules/no-undef
+   1  http://eslint.org/docs/rules/no-unused-vars
+   1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:55:07
+
+ ERROR  Failed to compile with 1 errors22:55:08
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/  
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthYear' is not defined        
+  src/components/EmployeeInformation.vue:167:9
+          birthYear = this.birth.substr(0, 4)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'firstDash' is not defined        
+  src/components/EmployeeInformation.vue:168:9
+          firstDash = this.birth.substr(4, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthMonth' is not defined       
+  src/components/EmployeeInformation.vue:169:9
+          birthMonth = this.birth.substr(5, 2)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'secondDash' is not defined       
+  src/components/EmployeeInformation.vue:170:9
+          secondDash = this.birth.substr(7, 1)
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'birthDay' is not defined         
+  src/components/EmployeeInformation.vue:171:9
+          birthDay = this.birth.substr(8, 2)
+           ^
+
+
+✘ 9 problems (9 errors, 0 warnings)
+
+
+Errors:
+  8  http://eslint.org/docs/rules/no-undef
+  1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:55:18
+
+ ERROR  Failed to compile with 1 errors22:55:18
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                           
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                           
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined                           
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/                 
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'birthYear' is assigned a value but never used   
+  src/components/EmployeeInformation.vue:167:13
+          var birthYear = this.birth.substr(0, 4)
+               ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'firstDash' is assigned a value but never used   
+  src/components/EmployeeInformation.vue:168:13
+          var firstDash = this.birth.substr(4, 1)
+               ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'birthMonth' is assigned a value but never used  
+  src/components/EmployeeInformation.vue:169:13
+          var birthMonth = this.birth.substr(5, 2)
+               ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'secondDash' is assigned a value but never used  
+  src/components/EmployeeInformation.vue:170:13
+          var secondDash = this.birth.substr(7, 1)
+               ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'birthDay' is assigned a value but never used    
+  src/components/EmployeeInformation.vue:171:13
+          var birthDay = this.birth.substr(8, 2)
+               ^
+
+
+✘ 9 problems (9 errors, 0 warnings)
+
+
+Errors:
+  5  http://eslint.org/docs/rules/no-unused-vars
+  3  http://eslint.org/docs/rules/no-undef
+  1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:55:31
+
+ ERROR  Failed to compile with 1 errors22:55:31
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:119:15
+          name: False,
+                 ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:120:17
+          gender: False,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-undef           'False' is not defined            
+  src/components/EmployeeInformation.vue:121:16
+          birth: False
+                  ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/  
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+
+✘ 4 problems (4 errors, 0 warnings)
+
+
+Errors:
+  3  http://eslint.org/docs/rules/no-undef
+  1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:55:45
+
+ ERROR  Failed to compile with 1 errors22:55:45
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \/  
+  src/components/EmployeeInformation.vue:126:91
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details <\/button>"
+                                                                                             ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:56:01
+
+ DONE  Compiled successfully in 479ms22:56:02
+
+ WAIT  Compiling...22:57:09
+
+ DONE  Compiled successfully in 494ms22:57:10
+
+ WAIT  Compiling...22:58:06
+
+ DONE  Compiled successfully in 378ms22:58:06
+
+ WAIT  Compiling...22:58:55
+
+ ERROR  Failed to compile with 1 errors22:58:56
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unterminated string constant (154:19)
+
+  152 |         Emp_no: 1,
+  153 |         FullName: this.name,
+> 154 |         BirthDate: 'this.birth,
+      |                    ^
+  155 |         Gender: this.gender,
+  156 |         action: this.defaultAction
+  157 |       }
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...22:59:12
+
+ DONE  Compiled successfully in 491ms22:59:12
+
+ WAIT  Compiling...23:02:36
+
+ DONE  Compiled successfully in 485ms23:02:37
+
+ WAIT  Compiling...23:03:29
+
+ DONE  Compiled successfully in 375ms23:03:30
+
+ WAIT  Compiling...23:06:23
+
+ DONE  Compiled successfully in 658ms23:06:24
+
+ WAIT  Compiling...23:07:21
+
+ DONE  Compiled successfully in 619ms23:07:22
+
+ WAIT  Compiling...23:08:23
+
+ DONE  Compiled successfully in 432ms23:08:24
+
+ WAIT  Compiling...23:10:10
+
+ DONE  Compiled successfully in 559ms23:10:11
+
+ WAIT  Compiling...23:23:52
+
+ ERROR  Failed to compile with 1 errors23:23:52
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (146:5)
+
+  144 |       } else if (params.column.field === 'Emp_no') {
+  145 |         this.ShowModal
+> 146 |     },
+      |      ^
+  147 |     createEmployee () {
+  148 |       console.log(this.birth)
+  149 |       this.employee = {
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:26:21
+
+ ERROR  Failed to compile with 1 errors23:26:21
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (144:5)
+
+  142 |       } else if (params.column.field === 'Emp_no') {
+  143 |         this.ShowModal
+> 144 |     },
+      |      ^
+  145 |     createEmployee () {
+  146 |       console.log(this.birth)
+  147 |       this.employee = {
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:29:12
+
+ ERROR  Failed to compile with 1 errors23:29:13
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (144:5)
+
+  142 |       } else if (params.column.field === 'Emp_no') {
+  143 |         this.ShowModal
+> 144 |     },
+      |      ^
+  145 |     createEmployee () {
+  146 |       console.log(this.birth)
+  147 |       this.employee = {
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:29:46
+
+ DONE  Compiled successfully in 432ms23:29:47
+
+ WAIT  Compiling...23:30:39
+
+ DONE  Compiled successfully in 406ms23:30:39
+
+ WAIT  Compiling...23:33:21
+
+ DONE  Compiled successfully in 416ms23:33:21
+
+ WAIT  Compiling...23:37:11
+
+ DONE  Compiled successfully in 408ms23:37:11
+
+ WAIT  Compiling...23:44:14
+
+ ERROR  Failed to compile with 1 errors23:44:15
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'array' is not defined  
+  src/components/EmployeeInformation.vue:178:11
+            array.splice(this.selectedIndex, 1)
+             ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:44:25
+
+ DONE  Compiled successfully in 488ms23:44:26
+
+ WAIT  Compiling...23:45:57
+
+ DONE  Compiled successfully in 531ms23:45:58
+
+ WAIT  Compiling...23:46:09
+
+ DONE  Compiled successfully in 371ms23:46:09
+
+ WAIT  Compiling...23:46:57
+
+ DONE  Compiled successfully in 384ms23:46:58
+
+ WAIT  Compiling...23:47:15
+
+ DONE  Compiled successfully in 496ms23:47:16
+
+ WAIT  Compiling...23:53:32
+
+ ERROR  Failed to compile with 1 errors23:53:32
+
+ error  in ./src/components/EmployeeInformation.vue
+
+(Emitted value instead of an instance of Error) 
+  Error compiling template:
+  
+  <b-container fluid>
+  <br>
+  <b-alert show variant="primary">Employees Information</b-alert>
+    <div class="text-center">
+      <b-btn v-b-modal.addEmployee>Add Employee</b-btn>
+      <b-modal id="addEmployee"
+               ref="modalAddEmployee"
+               title="Enter Employee Information"
+               ok-title='Submit'
+               @ok="submitAddEmployee"
+               @shown="clearEmployee">
+        <form @submit.stop.prevent="handleSubmitAddEmployee">
+          <b-container fluid>
+              <div role="group">
+                <label for="formName">Full Name:</label>
+                <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formNameFeedback">
+                  Enter a Name
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formName">Gender:</label>
+                <b-form-input id="formGender" v-model.trim="gender" type="text" :state="genderState" aria-describedby="formGenderFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formGenderFeedback">
+                  Enter either 'Male' or 'Female'
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formBirth">Birth Date:</label>
+                <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formBirthFeedback">
+                  Enter a valid date
+                </b-form-invalid-feedback>
+              </div>
+          </b-container>
+        </form>
+      </b-modal>
+    </div>
+   <br>
+    <div>
+      <vue-good-table
+        :columns="columns"
+        :rows="rows"
+        :search-options="{
+          enabled: true,
+          placeholder: 'Search Employees by Name or Number ...'
+        }"
+        :pagination-options="{
+          enabled: true,
+          perPage: 10,
+        }"
+        :lineNumbers="true"
+        @on-cell-click="onCellClick"
+        styleClass="vgt-table striped bordered"/>
+    </div>
+    <b-modal v-model="ShowModal" id="modal-show" centered title="Selected Employee" ok-only></b-modal>
+    <b-modal v-model="deleteModal" id="modal-delete" centered title="Delete Employee" ok-title='Delete' ok-variant='danger' @ok="deleteEmployee">
+      Deletion cannot be undone. Delete this Employee?
+    </b-modal>
+    <b-modal v-model='modifyEmployeeName id="modifyEmployeeName" title="Enter New Employee Name">
+      <form>
+        <b-container fluid>
+          <div role="group">
+            <label for="formName">New Full Name:</label>
+            <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+            <b-form-invalid-feedback id="formNameFeedback">
+              Enter a New Name
+            </b-form-invalid-feedback>
+          </div>
+        </b-container>
+      </form>
+    </b-modal>
+  </b-container>
+  </template>
+  
+  <style>
+  </style>
+  
+  <script>
+    export default {
+      data: () => ({
+        SelectedText: '',
+        ShowModal: false,
+        deleteModal: false,
+        columns: [
+          {
+            label: 'Employee Number',
+            field: 'Emp_no',
+            filterOptions: { enabled: true
+            },
+            type: 'number',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Full Name',
+            field: 'FullName',
+            filterOptions: { enabled: true
+            },
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Gender',
+            field: 'Gender',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Birth Date',
+            field: 'BirthDate',
+            type: 'date',
+            dateInputFormat: 'YYYY-MM-DD',
+            dateOutputFormat: 'Do MMM YYYY',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Action',
+            field: 'action',
+            html: true,
+            thClass: 'vgt-center-align',
+            tdClass: 'vgt-center-align'}
+        ],
+        rows: [],
+        selectedIndex: null,
+        employee: null,
+        name: '',
+        birth: '',
+        gender: '',
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+      }),
+      computed: {
+        nameState () {
+          return Boolean(this.name)
+        },
+        genderState () {
+          return this.gender === 'Male' || this.gender === 'Female'
+        },
+        birthState () {
+          return Boolean(this.birth)
+        },
+        rowsIndex () {
+          return this.selectedIndex
+        }
+      },
+      mounted () {
+        this.axios.get('http://www.topcutbarbers.co.uk/service/service.php').then((response) => { console.log(response); this.rows = response.data })
+      },
+      methods: {
+        onCellClick (params) {
+          if (params.column.field === 'action') {
+            this.ShowModal = true
+            this.SelectedText = params.row.FullName + ' ' + ', Employee ID : ' + params.row.Emp_no + ', Birth Date : ' + params.row.BirthDate
+          } else if (params.column.field === 'Emp_no') {
+            this.selectedIndex = params.rowIndex
+            this.deleteModal = true
+          }
+        },
+        createEmployee () {
+          console.log(this.birth)
+          this.employee = {
+            Emp_no: 1,
+            FullName: this.name,
+            BirthDate: this.birth,
+            Gender: this.gender,
+            action: this.defaultAction
+          }
+        },
+        clearEmployee () {
+          this.employee = null
+        },
+        submitAddEmployee (evt) {
+          // Prevent modal from closing
+          evt.preventDefault()
+          this.createEmployee()
+  
+          if (!this.employee) {
+            alert('Employee entered has a problem.')
+            console.log('error with employee:', this.employee)
+          } else {
+            this.handleSubmitAddEmployee()
+          }
+        },
+        handleSubmitAddEmployee () {
+          this.rows.push(this.employee)
+          console.log('would submit employee:', this.employee)
+          this.clearEmployee()
+          this.$refs.modalAddEmployee.hide()
+        },
+        deleteEmployee () {
+          if (this.selectedIndex) {
+            this.rows.splice(this.selectedIndex, 1)
+          } else {
+            alert('Could not delete Employee')
+          }
+        }
+      }
+    }
+  </script>
+  - tag <b-container> has no matching end tag.
+
+
+ @ ./src/components/EmployeeInformation.vue 6:0-376
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:55:24
+
+ ERROR  Failed to compile with 1 errors23:55:24
+
+ error  in ./src/components/EmployeeInformation.vue
+
+(Emitted value instead of an instance of Error) 
+  Error compiling template:
+  
+  <b-container fluid>
+  <br>
+  <b-alert show variant="primary">Employees Information</b-alert>
+    <div class="text-center">
+      <b-btn v-b-modal.addEmployee>Add Employee</b-btn>
+      <b-modal id="addEmployee"
+               ref="modalAddEmployee"
+               title="Enter Employee Information"
+               ok-title='Submit'
+               @ok="submitAddEmployee"
+               @shown="clearEmployee">
+        <form @submit.stop.prevent="handleSubmitAddEmployee">
+          <b-container fluid>
+              <div role="group">
+                <label for="formName">Full Name:</label>
+                <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formNameFeedback">
+                  Enter a Name
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formName">Gender:</label>
+                <b-form-input id="formGender" v-model.trim="gender" type="text" :state="genderState" aria-describedby="formGenderFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formGenderFeedback">
+                  Enter either 'Male' or 'Female'
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formBirth">Birth Date:</label>
+                <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formBirthFeedback">
+                  Enter a valid date
+                </b-form-invalid-feedback>
+              </div>
+          </b-container>
+        </form>
+      </b-modal>
+    </div>
+   <br>
+    <div>
+      <vue-good-table
+        :columns="columns"
+        :rows="rows"
+        :search-options="{
+          enabled: true,
+          placeholder: 'Search Employees by Name or Number ...'
+        }"
+        :pagination-options="{
+          enabled: true,
+          perPage: 10,
+        }"
+        :lineNumbers="true"
+        @on-cell-click="onCellClick"
+        styleClass="vgt-table striped bordered"/>
+    </div>
+    <b-modal v-model="ShowModal" id="modal-show" centered title="Selected Employee" ok-only></b-modal>
+    <b-modal v-model="deleteModal" id="modal-delete" centered title="Delete Employee" ok-title='Delete' ok-variant='danger' @ok="deleteEmployee">
+      Deletion cannot be undone. Delete this Employee?
+    </b-modal>
+    <b-modal v-model='modifyEmployeeName id="modifyEmployeeName" title="Enter New Employee Name">
+      <form>
+          <div role="group">
+            <label for="formName">New Full Name:</label>
+            <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+            <b-form-invalid-feedback id="formNameFeedback">
+              Enter a New Name
+            </b-form-invalid-feedback>
+          </div>
+      </form>
+    </b-modal>
+  </b-container>
+  </template>
+  
+  <style>
+  </style>
+  
+  <script>
+      data: () => ({
+        SelectedText: '',
+        ShowModal: false,
+        deleteModal: false,
+        columns: [
+          {
+            label: 'Employee Number',
+            field: 'Emp_no',
+            filterOptions: { enabled: true
+            },
+            type: 'number',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Full Name',
+            field: 'FullName',
+            filterOptions: { enabled: true
+            },
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Gender',
+            field: 'Gender',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Birth Date',
+            field: 'BirthDate',
+            type: 'date',
+            dateInputFormat: 'YYYY-MM-DD',
+            dateOutputFormat: 'Do MMM YYYY',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Action',
+            field: 'action',
+            html: true,
+            thClass: 'vgt-center-align',
+            tdClass: 'vgt-center-align'}
+        ],
+        rows: [],
+        selectedIndex: null,
+        employee: null,
+        name: '',
+        birth: '',
+        gender: '',
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+      }),
+      computed: {
+        nameState () {
+          return Boolean(this.name)
+        },
+        genderState () {
+          return this.gender === 'Male' || this.gender === 'Female'
+        },
+        birthState () {
+          return Boolean(this.birth)
+        },
+        rowsIndex () {
+          return this.selectedIndex
+        }
+      },
+      mounted () {
+        this.axios.get('http://www.topcutbarbers.co.uk/service/service.php').then((response) => { console.log(response); this.rows = response.data })
+      },
+      methods: {
+        onCellClick (params) {
+          if (params.column.field === 'action') {
+            this.ShowModal = true
+            this.SelectedText = params.row.FullName + ' ' + ', Employee ID : ' + params.row.Emp_no + ', Birth Date : ' + params.row.BirthDate
+          } else if (params.column.field === 'Emp_no') {
+            this.selectedIndex = params.rowIndex
+            this.deleteModal = true
+          }
+        },
+        createEmployee () {
+          console.log(this.birth)
+          this.employee = {
+            Emp_no: 1,
+            FullName: this.name,
+            BirthDate: this.birth,
+            Gender: this.gender,
+            action: this.defaultAction
+          }
+        },
+        clearEmployee () {
+          this.employee = null
+        },
+        submitAddEmployee (evt) {
+          // Prevent modal from closing
+          evt.preventDefault()
+          this.createEmployee()
+  
+          if (!this.employee) {
+            alert('Employee entered has a problem.')
+            console.log('error with employee:', this.employee)
+          } else {
+            this.handleSubmitAddEmployee()
+          }
+        },
+        handleSubmitAddEmployee () {
+          this.rows.push(this.employee)
+          console.log('would submit employee:', this.employee)
+          this.clearEmployee()
+          this.$refs.modalAddEmployee.hide()
+        },
+        deleteEmployee () {
+          if (this.selectedIndex) {
+            this.rows.splice(this.selectedIndex, 1)
+          } else {
+            alert('Could not delete Employee')
+          }
+        }
+      }
+    }
+  </script>
+  - tag <b-container> has no matching end tag.
+
+
+ @ ./src/components/EmployeeInformation.vue 6:0-376
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:56:13
+
+ ERROR  Failed to compile with 1 errors23:56:13
+
+ error  in ./src/components/EmployeeInformation.vue
+
+(Emitted value instead of an instance of Error) 
+  Error compiling template:
+  
+  <b-container fluid>
+  <br>
+  <b-alert show variant="primary">Employees Information</b-alert>
+    <div class="text-center">
+      <b-btn v-b-modal.addEmployee>Add Employee</b-btn>
+      <b-modal id="addEmployee"
+               ref="modalAddEmployee"
+               title="Enter Employee Information"
+               ok-title='Submit'
+               @ok="submitAddEmployee"
+               @shown="clearEmployee">
+        <form @submit.stop.prevent="handleSubmitAddEmployee">
+          <b-container fluid>
+              <div role="group">
+                <label for="formName">Full Name:</label>
+                <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formNameFeedback">
+                  Enter a Name
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formName">Gender:</label>
+                <b-form-input id="formGender" v-model.trim="gender" type="text" :state="genderState" aria-describedby="formGenderFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formGenderFeedback">
+                  Enter either 'Male' or 'Female'
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formBirth">Birth Date:</label>
+                <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formBirthFeedback">
+                  Enter a valid date
+                </b-form-invalid-feedback>
+              </div>
+          </b-container>
+        </form>
+      </b-modal>
+    </div>
+   <br>
+    <div>
+      <vue-good-table
+        :columns="columns"
+        :rows="rows"
+        :search-options="{
+          enabled: true,
+          placeholder: 'Search Employees by Name or Number ...'
+        }"
+        :pagination-options="{
+          enabled: true,
+          perPage: 10,
+        }"
+        :lineNumbers="true"
+        @on-cell-click="onCellClick"
+        styleClass="vgt-table striped bordered"/>
+    </div>
+    <b-modal v-model="ShowModal" id="modal-show" centered title="Selected Employee" ok-only></b-modal>
+    <b-modal v-model="deleteModal" id="modal-delete" centered title="Delete Employee" ok-title='Delete' ok-variant='danger' @ok="deleteEmployee">
+      Deletion cannot be undone. Delete this Employee?
+    </b-modal>
+    <b-modal v-model='modifyEmployeeName id="modifyEmployeeName" title="Enter New Employee Name">
+          <div role="group">
+            <label for="formName">New Full Name:</label>
+            <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+            <b-form-invalid-feedback id="formNameFeedback">
+              Enter a New Name
+            </b-form-invalid-feedback>
+          </div>
+    </b-modal>
+  </b-container>
+  </template>
+  
+  <style>
+  </style>
+  
+  <script>
+      data: () => ({
+        SelectedText: '',
+        ShowModal: false,
+        deleteModal: false,
+        columns: [
+          {
+            label: 'Employee Number',
+            field: 'Emp_no',
+            filterOptions: { enabled: true
+            },
+            type: 'number',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Full Name',
+            field: 'FullName',
+            filterOptions: { enabled: true
+            },
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Gender',
+            field: 'Gender',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Birth Date',
+            field: 'BirthDate',
+            type: 'date',
+            dateInputFormat: 'YYYY-MM-DD',
+            dateOutputFormat: 'Do MMM YYYY',
+            thClass: 'vgt-left-align',
+            tdClass: 'vgt-left-align'
+          },
+          {
+            label: 'Action',
+            field: 'action',
+            html: true,
+            thClass: 'vgt-center-align',
+            tdClass: 'vgt-center-align'}
+        ],
+        rows: [],
+        selectedIndex: null,
+        employee: null,
+        name: '',
+        birth: '',
+        gender: '',
+        defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+      }),
+      computed: {
+        nameState () {
+          return Boolean(this.name)
+        },
+        genderState () {
+          return this.gender === 'Male' || this.gender === 'Female'
+        },
+        birthState () {
+          return Boolean(this.birth)
+        },
+        rowsIndex () {
+          return this.selectedIndex
+        }
+      },
+      mounted () {
+        this.axios.get('http://www.topcutbarbers.co.uk/service/service.php').then((response) => { console.log(response); this.rows = response.data })
+      },
+      methods: {
+        onCellClick (params) {
+          if (params.column.field === 'action') {
+            this.ShowModal = true
+            this.SelectedText = params.row.FullName + ' ' + ', Employee ID : ' + params.row.Emp_no + ', Birth Date : ' + params.row.BirthDate
+          } else if (params.column.field === 'Emp_no') {
+            this.selectedIndex = params.rowIndex
+            this.deleteModal = true
+          }
+        },
+        createEmployee () {
+          console.log(this.birth)
+          this.employee = {
+            Emp_no: 1,
+            FullName: this.name,
+            BirthDate: this.birth,
+            Gender: this.gender,
+            action: this.defaultAction
+          }
+        },
+        clearEmployee () {
+          this.employee = null
+        },
+        submitAddEmployee (evt) {
+          // Prevent modal from closing
+          evt.preventDefault()
+          this.createEmployee()
+  
+          if (!this.employee) {
+            alert('Employee entered has a problem.')
+            console.log('error with employee:', this.employee)
+          } else {
+            this.handleSubmitAddEmployee()
+          }
+        },
+        handleSubmitAddEmployee () {
+          this.rows.push(this.employee)
+          console.log('would submit employee:', this.employee)
+          this.clearEmployee()
+          this.$refs.modalAddEmployee.hide()
+        },
+        deleteEmployee () {
+          if (this.selectedIndex) {
+            this.rows.splice(this.selectedIndex, 1)
+          } else {
+            alert('Could not delete Employee')
+          }
+        }
+      }
+    }
+  </script>
+  - tag <b-container> has no matching end tag.
+
+
+ @ ./src/components/EmployeeInformation.vue 6:0-376
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...23:56:55
+
+ ERROR  Failed to compile with 1 errors23:56:55
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (120:10)
+
+  118 |     defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+  119 |   }),
+> 120 |   computed: {
+      |           ^
+  121 |     nameState () {
+  122 |       return Boolean(this.name)
+  123 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ ERROR  Failed to compile with 1 errors23:58:37
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (120:10)
+
+  118 |     defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+  119 |   }),
+> 120 |   computed: {
+      |           ^
+  121 |     nameState () {
+  122 |       return Boolean(this.name)
+  123 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...00:00:31
+
+ ERROR  Failed to compile with 1 errors00:00:31
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (121:17)
+
+  119 |   }),
+  120 |   computed; {
+> 121 |     nameState () {
+      |                  ^
+  122 |       return Boolean(this.name)
+  123 |     },
+  124 |     genderState () {
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ WAIT  Compiling...00:01:13
+
+ ERROR  Failed to compile with 1 errors00:01:14
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (120:10)
+
+  118 |     defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+  119 |   }),
+> 120 |   computed: {
+      |           ^
+  121 |     nameState () {
+  122 |       return Boolean(this.name)
+  123 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ ERROR  Failed to compile with 1 errors00:12:32
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (120:10)
+
+  118 |     defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+  119 |   }),
+> 120 |   computed: {
+      |           ^
+  121 |     nameState () {
+  122 |       return Boolean(this.name)
+  123 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+> Listening at http://localhost:8080
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ ERROR  Failed to compile with 1 errors00:23:11
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (120:10)
+
+  118 |     defaultAction: "<button type='button' class='btn btn-primary btn-md'> Show Details </button>"
+  119 |   }),
+> 120 |   computed: {
+      |           ^
+  121 |     nameState () {
+  122 |       return Boolean(this.name)
+  123 |     },
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+> Listening at http://localhost:8080
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 5415ms00:32:30
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...00:35:30
+
+ DONE  Compiled successfully in 1047ms00:35:31
+
+ WAIT  Compiling...00:37:20
+
+ DONE  Compiled successfully in 706ms00:37:21
+
+ WAIT  Compiling...00:37:43
+
+ DONE  Compiled successfully in 634ms00:37:44
+
+ WAIT  Compiling...00:43:18
+
+ DONE  Compiled successfully in 605ms00:43:19
+
+ WAIT  Compiling...00:43:47
+
+ DONE  Compiled successfully in 673ms00:43:48
+
+ WAIT  Compiling...00:44:14
+
+ DONE  Compiled successfully in 656ms00:44:15
+
+ WAIT  Compiling...00:45:54
+
+ ERROR  Failed to compile with 1 errors00:45:54
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'rows' is not defined  
+  src/components/EmployeeInformation.vue:151:42
+          console.log('emp no:', this.rows[rows.length].Emp_no)
+                                            ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...00:46:02
+
+ DONE  Compiled successfully in 624ms00:46:03
+
+ WAIT  Compiling...00:46:41
+
+ DONE  Compiled successfully in 589ms00:46:42
+
+ WAIT  Compiling...00:48:12
+
+ ERROR  Failed to compile with 1 errors00:48:12
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ; (150:65)
+
+  148 |     },
+  149 |     createEmployee () {
+> 150 |       var nextEmpNo = int(this.rows[this.rows.length - 1].Emp_no)) + 1
+      |                                                                  ^
+  151 |       this.employee = {
+  152 |         Emp_no: nextEmpNo,
+  153 |         FullName: this.name,
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...00:48:33
+
+ ERROR  Failed to compile with 1 errors00:48:33
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'int' is not defined  
+  src/components/EmployeeInformation.vue:150:25
+          var nextEmpNo = int(this.rows[this.rows.length - 1].Emp_no) + 1
+                           ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...00:48:41
+
+ ERROR  Failed to compile with 1 errors00:48:41
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'number' is not defined  
+  src/components/EmployeeInformation.vue:150:25
+          var nextEmpNo = number(this.rows[this.rows.length - 1].Emp_no) + 1
+                           ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...00:49:03
+
+ DONE  Compiled successfully in 564ms00:49:04
+
+ WAIT  Compiling...00:52:35
+
+ DONE  Compiled successfully in 590ms00:52:35
+
+ WAIT  Compiling...00:53:28
+
+ DONE  Compiled successfully in 556ms00:53:29
+
+ WAIT  Compiling...00:56:33
+
+ DONE  Compiled successfully in 614ms00:56:34
+
+ WAIT  Compiling...00:59:17
+
+ DONE  Compiled successfully in 427ms00:59:18
+
+ WAIT  Compiling...01:01:37
+
+ DONE  Compiled successfully in 525ms01:01:38
+
+ WAIT  Compiling...01:05:00
+
+ DONE  Compiled successfully in 548ms01:05:01
+
+ WAIT  Compiling...01:07:34
+
+ DONE  Compiled successfully in 399ms01:07:34
+
+ WAIT  Compiling...01:11:35
+
+ ERROR  Failed to compile with 1 errors01:11:35
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected ( (139:10)
+
+  137 |     this.axios.get('http://www.topcutbarbers.co.uk/service/service.php').then((response) => {
+  138 |       this.rows = response.data
+> 139 |       for row in this.rows {
+      |           ^
+  140 |         row.del = this.deleteAction
+  141 |       }
+  142 |     })
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:11:56
+
+ ERROR  Failed to compile with 1 errors01:11:57
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'row' is not defined  
+  src/components/EmployeeInformation.vue:139:14
+          for (row in this.rows) {
+                ^
+
+  ✘  http://eslint.org/docs/rules/no-undef  'row' is not defined  
+  src/components/EmployeeInformation.vue:140:11
+            row.del = this.deleteAction
+             ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:12:09
+
+ DONE  Compiled successfully in 528ms01:12:09
+
+ WAIT  Compiling...01:12:43
+
+ DONE  Compiled successfully in 568ms01:12:44
+
+ WAIT  Compiling...01:13:12
+
+ DONE  Compiled successfully in 548ms01:13:13
+
+ WAIT  Compiling...01:15:14
+
+ DONE  Compiled successfully in 419ms01:15:15
+
+ WAIT  Compiling...01:15:37
+
+ DONE  Compiled successfully in 547ms01:15:38
+
+ WAIT  Compiling...01:16:16
+
+ ERROR  Failed to compile with 1 errors01:16:16
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'row' is assigned a value but never used  
+  src/components/EmployeeInformation.vue:139:18
+          for (var row in this.rows) {
+                    ^
+
+  ✘  http://eslint.org/docs/rules/no-undef        'rows' is not defined                     
+  src/components/EmployeeInformation.vue:140:11
+            rows.row.del = this.deleteAction
+             ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:16:25
+
+ ERROR  Failed to compile with 1 errors01:16:25
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'row' is assigned a value but never used  
+  src/components/EmployeeInformation.vue:139:18
+          for (var row in this.rows) {
+                    ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:16:38
+
+ DONE  Compiled successfully in 411ms01:16:39
+
+ WAIT  Compiling...01:17:13
+
+ DONE  Compiled successfully in 559ms01:17:14
+
+ WAIT  Compiling...01:17:38
+
+ DONE  Compiled successfully in 518ms01:17:38
+
+ WAIT  Compiling...01:21:19
+
+ DONE  Compiled successfully in 552ms01:21:19
+
+ WAIT  Compiling...01:21:32
+
+ ERROR  Failed to compile with 1 errors01:21:33
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/quotes  Strings must use singlequote  
+  src/components/EmployeeInformation.vue:120:21
+        deleteAction: "<b-button> Delete </b-button>"
+                       ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/quotes
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:21:49
+
+ DONE  Compiled successfully in 521ms01:21:49
+
+ WAIT  Compiling...01:23:33
+
+ DONE  Compiled successfully in 589ms01:23:34
+
+ WAIT  Compiling...01:23:56
+
+ DONE  Compiled successfully in 446ms01:23:56
+
+ WAIT  Compiling...01:24:07
+
+ DONE  Compiled successfully in 393ms01:24:08
+
+ WAIT  Compiling...01:24:27
+
+ DONE  Compiled successfully in 486ms01:24:27
+
+ WAIT  Compiling...01:24:38
+
+ DONE  Compiled successfully in 416ms01:24:38
+
+ WAIT  Compiling...01:24:45
+
+ DONE  Compiled successfully in 376ms01:24:45
+
+ WAIT  Compiling...01:26:42
+
+ DONE  Compiled successfully in 686ms01:26:43
+
+ WAIT  Compiling...01:27:42
+
+ DONE  Compiled successfully in 595ms01:27:43
+
+ WAIT  Compiling...01:27:58
+
+ ERROR  Failed to compile with 1 errors01:27:58
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/spaced-comment  Expected space or tab after '//' in comment  
+  src/components/EmployeeInformation.vue:148:11
+            //this.deleteModal = true
+             ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/spaced-comment
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:28:07
+
+ DONE  Compiled successfully in 536ms01:28:07
+
+ WAIT  Compiling...01:31:58
+
+ DONE  Compiled successfully in 477ms01:31:58
+
+ WAIT  Compiling...01:32:20
+
+ DONE  Compiled successfully in 603ms01:32:21
+
+ WAIT  Compiling...01:32:30
+
+ DONE  Compiled successfully in 426ms01:32:30
+
+ WAIT  Compiling...01:32:39
+
+ DONE  Compiled successfully in 393ms01:32:40
+
+ WAIT  Compiling...01:32:50
+
+ DONE  Compiled successfully in 368ms01:32:51
+
+ WAIT  Compiling...01:32:58
+
+ DONE  Compiled successfully in 480ms01:32:59
+
+ WAIT  Compiling...01:33:18
+
+ ERROR  Failed to compile with 1 errors01:33:19
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token, expected , (120:78)
+
+  118 |     birth: '',
+  119 |     gender: '',
+> 120 |     deleteAction: "<button type='button' class='btn btn-danger btn-md @click="deleteEmployee"'> Delete </button>"
+      |                                                                               ^
+  121 |   }),
+  122 |   computed: {
+  123 |     nameState () {
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:33:51
+
+ DONE  Compiled successfully in 682ms01:33:52
+
+ WAIT  Compiling...01:35:15
+
+ DONE  Compiled successfully in 671ms01:35:15
+
+ WAIT  Compiling...01:36:45
+
+ ERROR  Failed to compile with 1 errors01:36:46
+
+ error  in ./src/components/EmployeeInformation.vue
+
+(Emitted value instead of an instance of Error) 
+  Error compiling template:
+  
+  <b-container fluid>
+  <br>
+  <b-alert show variant="primary">Employees Information</b-alert>
+    <div class="text-center">
+      <b-btn v-b-modal.addEmployee>Add Employee</b-btn>
+      <b-modal id="addEmployee"
+               ref="modalAddEmployee"
+               title="Enter Employee Information"
+               ok-title='Submit'
+               @ok="submitAddEmployee"
+               @shown="clearEmployee">
+        <form @submit.stop.prevent="handleSubmitAddEmployee">
+          <b-container fluid>
+              <div role="group">
+                <label for="formName">Full Name:</label>
+                <b-form-input id="formName" v-model.trim="name" type="text" :state="nameState" aria-describedby="formNameFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formNameFeedback">
+                  Enter a Name
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formName">Gender:</label>
+                <b-dropdown id="ddown1" text="Gender" class="m-md-2">
+                  <b-dropdown-item>Male</b-dropdown-item>
+                  <b-dropdown-item>Female</b-dropdown-item>
+                <b-form-invalid-feedback id="formGenderFeedback">
+                  Enter either 'Male' or 'Female'
+                </b-form-invalid-feedback>
+              </div>
+              <div role="group">
+                <label for="formBirth">Birth Date:</label>
+                <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
+                <b-form-invalid-feedback id="formBirthFeedback">
+                  Enter a valid date
+                </b-form-invalid-feedback>
+              </div>
+          </b-container>
+        </form>
+      </b-modal>
+    </div>
+   <br>
+    <div>
+      <vue-good-table
+        :columns="columns"
+        :rows="rows"
+        :search-options="{
+          enabled: true,
+          placeholder: 'Search Employees by Name or Number ...'
+        }"
+        :pagination-options="{
+          enabled: true,
+          perPage: 10,
+        }"
+        :lineNumbers="true"
+        @on-cell-click="onCellClick"
+        styleClass="vgt-table striped bordered"/>
+    </div>
+    <b-modal v-model="ShowModal" id="modal-show" centered title="Selected Employee" ok-only></b-modal>
+    <b-modal v-model="deleteModal" id="modal-delete" centered title="Delete Employee" ok-title='Delete' ok-variant='danger' @ok="deleteEmployee">
+      Deletion cannot be undone. Delete this Employee?
+    </b-modal>
+  </b-container>
+  
+  - tag <b-dropdown> has no matching end tag.
+
+
+ @ ./src/components/EmployeeInformation.vue 11:0-376
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:39:59
+
+ DONE  Compiled successfully in 675ms01:40:00
+
+ WAIT  Compiling...01:41:02
+
+ DONE  Compiled successfully in 564ms01:41:03
+
+ WAIT  Compiling...01:41:15
+
+ DONE  Compiled successfully in 467ms01:41:16
+
+ WAIT  Compiling...01:45:47
+
+ DONE  Compiled successfully in 705ms01:45:48
+
+ WAIT  Compiling...01:46:04
+
+ DONE  Compiled successfully in 619ms01:46:05
+
+ WAIT  Compiling...01:47:27
+
+ DONE  Compiled successfully in 658ms01:47:28
+
+ WAIT  Compiling...01:48:28
+
+ DONE  Compiled successfully in 497ms01:48:29
+
+ WAIT  Compiling...01:49:24
+
+ DONE  Compiled successfully in 484ms01:49:24
+
+ WAIT  Compiling...01:57:35
+
+ ERROR  Failed to compile with 1 errors01:57:35
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (178:56)
+
+  176 |       this.createEmployee()
+  177 | 
+> 178 |       if (!this.nameState() || this.genderState || this.)
+      |                                                         ^
+  179 |       else if (!this.employee) {
+  180 |         alert('Employee entered has a problem.')
+  181 |         console.log('error with employee:', this.employee)
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:58:03
+
+ DONE  Compiled successfully in 571ms01:58:04
+
+ WAIT  Compiling...01:58:32
+
+ ERROR  Failed to compile with 1 errors01:58:32
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'nameState' is not defined  
+  src/components/EmployeeInformation.vue:178:14
+          if (!nameState() || !this.genderState || !this.birthState) {
+                ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...01:58:42
+
+ DONE  Compiled successfully in 435ms01:58:42
+
+ WAIT  Compiling...02:02:17
+
+ DONE  Compiled successfully in 425ms02:02:18
+
+ WAIT  Compiling...02:02:57
+
+ DONE  Compiled successfully in 551ms02:02:58
+
+ WAIT  Compiling...02:03:44
+
+ DONE  Compiled successfully in 556ms02:03:45
+
+ WAIT  Compiling...02:05:17
+
+ ERROR  Failed to compile with 1 errors02:05:18
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (175:6)
+
+  173 |       if (this.name) {
+  174 |         this.rows.selectedIndex.FullName = 
+> 175 |       }
+      |       ^
+  176 |     },
+  177 |     clearEmployee () {
+  178 |       this.employee = null
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:06:52
+
+ DONE  Compiled successfully in 553ms02:06:53
+
+ WAIT  Compiling...02:07:28
+
+ DONE  Compiled successfully in 555ms02:07:28
+
+ WAIT  Compiling...02:07:50
+
+ ERROR  Failed to compile with 1 errors02:07:51
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'clearEmployee' is not defined  
+  src/components/EmployeeInformation.vue:182:9
+          clearEmployee()
+           ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:08:16
+
+ DONE  Compiled successfully in 560ms02:08:17
+
+ WAIT  Compiling...02:10:31
+
+ DONE  Compiled successfully in 594ms02:10:32
+
+ WAIT  Compiling...02:10:54
+
+ DONE  Compiled successfully in 620ms02:10:55
+
+ WAIT  Compiling...02:11:27
+
+ DONE  Compiled successfully in 457ms02:11:28
+
+ WAIT  Compiling...02:12:11
+
+ ERROR  Failed to compile with 1 errors02:12:11
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef  'selectedIndex' is not defined  
+  src/components/EmployeeInformation.vue:190:34
+            this.birth = this.rows[selectedIndex].BirthDate
+                                    ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:12:50
+
+ DONE  Compiled successfully in 665ms02:12:51
+
+ WAIT  Compiling...02:15:07
+
+ DONE  Compiled successfully in 637ms02:15:08
+
+ WAIT  Compiling...02:15:59
+
+ DONE  Compiled successfully in 627ms02:16:00
+
+ WAIT  Compiling...02:18:01
+
+ DONE  Compiled successfully in 624ms02:18:01
+
+ WAIT  Compiling...02:19:55
+
+ ERROR  Failed to compile with 1 errors02:19:55
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef            'evt' is not defined         
+  src/components/EmployeeInformation.vue:205:9
+          evt.preventDefault()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:206:3
+          
+     ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:20:33
+
+ ERROR  Failed to compile with 1 errors02:20:33
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef            'evt' is not defined         
+  src/components/EmployeeInformation.vue:205:9
+          evt.preventDefault()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:206:3
+          
+     ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:21:03
+
+ ERROR  Failed to compile with 1 errors02:21:04
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-undef            'evt' is not defined         
+  src/components/EmployeeInformation.vue:205:9
+          evt.preventDefault()
+           ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:206:3
+          
+     ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-undef
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:21:29
+
+ ERROR  Failed to compile with 1 errors02:21:29
+
+ error  in ./src/components/EmployeeInformation.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/EmployeeInformation.vue:206:3
+          
+     ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 4:0-67
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:21:42
+
+ DONE  Compiled successfully in 483ms02:21:43
+
+ WAIT  Compiling...02:24:39
+
+ ERROR  Failed to compile with 1 errors02:24:39
+
+ error  in ./src/components/EmployeeInformation.vue
+
+Syntax Error: Unexpected token (222:4)
+
+  220 |       this.modifyBirthModal = false,
+  221 | 
+> 222 |     },
+      |     ^
+  223 |     clearEmployee () {
+  224 |       this.employee = null
+  225 |       this.name = ''
+
+
+
+ @ ./src/components/EmployeeInformation.vue 8:0-119 9:0-132
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...02:24:52
+
+ DONE  Compiled successfully in 574ms02:24:53
+
+ WAIT  Compiling...02:25:38
+
+ DONE  Compiled successfully in 597ms02:25:38
+

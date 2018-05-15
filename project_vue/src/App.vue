@@ -11,7 +11,6 @@
       <b-navbar-nav>
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item  to="/EmployeeInformation">Employee Information</b-nav-item>
-        <b-nav-item to="/PayrollPortal">Payroll Portal</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

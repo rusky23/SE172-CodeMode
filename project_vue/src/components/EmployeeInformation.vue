@@ -34,7 +34,7 @@
             <br>
             <div role="group">
               <label for="formBirth">Birth Date:</label>
-              <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
+              <b-form-input id="formBirth" v-model="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
               <b-form-invalid-feedback id="formBirthFeedback">
                 Enter a valid date
               </b-form-invalid-feedback>
@@ -88,7 +88,7 @@
   <b-modal v-model="modifyBirthModal" id="modifyBirthModal" centered title="Update Employee Birth Date" @ok="updateEmployee">
     <div role="group">
       <label for="formBirth">Birth Date:</label>
-      <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
+      <b-form-input id="formBirth" v-model="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
       <b-form-invalid-feedback id="formBirthFeedback">
         Enter a valid date
       </b-form-invalid-feedback>

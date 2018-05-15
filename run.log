@@ -285,3 +285,195 @@ Syntax Error: Unexpected token, expected , (39:2)
  @ ./src/main.js
  @ multi ./build/dev-client ./src/main.js
 
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 8249ms11:12:59
+
+> Listening at http://localhost:8080
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 8418ms19:45:57
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...20:57:50
+
+ ERROR  Failed to compile with 1 errors20:57:51
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:57:55
+
+ ERROR  Failed to compile with 1 errors20:57:55
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:57:55
+
+ ERROR  Failed to compile with 1 errors20:57:55
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:57:58
+
+ ERROR  Failed to compile with 1 errors20:57:58
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:57:58
+
+ ERROR  Failed to compile with 1 errors20:57:59
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:57:59
+
+ ERROR  Failed to compile with 1 errors20:58:00
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:58:01
+
+ ERROR  Failed to compile with 1 errors20:58:02
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:58:02
+
+ ERROR  Failed to compile with 1 errors20:58:02
+
+ error  in ./src/main.js
+
+Syntax Error: Unexpected token (10:13)
+
+   8 | import 'bootstrap/dist/css/bootstrap.css'
+   9 | import 'bootstrap-vue/dist/bootstrap-vue.css'
+> 10 | import model = require('./models')
+     |              ^
+  11 | 
+  12 | Vue.use(BootstrapVue)
+  13 | Vue.config.productionTip = false
+
+
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...20:58:03
+
+ DONE  Compiled successfully in 3139ms20:58:06
+
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...

@@ -2,10 +2,13 @@
 - hosts: local
   vars:
     server_port: 8080
+    jenkins_port: 8082
   become: yes
   tasks:
   - name: allow server to be accessed publically
     firewalld: zone=public port={{server_port}}/tcp permanent=true state=enabled
+  - name: allow jenkins to be accessed publically
+    firewalld: zone=public port={{jenkins_port}}/tcp permanent=true state=enabled
   - name: start npm server script
     command: nohup sh ./start-npm.sh & disown
 

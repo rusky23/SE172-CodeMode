@@ -3705,3 +3705,16 @@ Syntax Error: Unexpected token (222:4)
 
  DONE  Compiled successfully in 597ms02:25:38
 
+
+> my-vue-app@1.0.0 dev /home/morima/Documents/172/CodeMode/project_vue
+> node build/dev-server.js
+
+> Starting dev server...
+ DONE  Compiled successfully in 5611ms02:41:27
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...02:42:01
+
+ DONE  Compiled successfully in 1021ms02:42:02
+

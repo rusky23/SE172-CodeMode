@@ -19,6 +19,7 @@
                 Enter a Name
               </b-form-invalid-feedback>
             </div>
+            <br>
             <div role="group">
               <label for="formName">Gender:</label>
               <select v-model="gender" class="required">
@@ -30,6 +31,7 @@
                 Enter either 'Male' or 'Female'
               </b-form-invalid-feedback>
             </div>
+            <br>
             <div role="group">
               <label for="formBirth">Birth Date:</label>
               <b-form-input id="formBirth" v-model.trim="birth" type="date" :state="birthState" aria-describedby="formBirthFeedback"></b-form-input>
